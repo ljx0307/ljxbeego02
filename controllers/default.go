@@ -45,20 +45,37 @@ func (c *MainController) Post(){
 }
 
  */
-func(c *MainController)Post(){
-	var person models.Person
+//func(c *MainController)Post(){
+//	var person models.Person
+//	dataBytes,err :=ioutil.ReadAll(c.Ctx.Request.Body)
+//	if err !=nil{
+//		c.Ctx.WriteString("数据解析失败，请重试")
+//	}
+//	err = json.Unmarshal(dataBytes,&person)
+//	if err !=nil {
+//		c.Ctx.WriteString("数据解析失败")
+//		return
+//	}
+//	fmt.Println("姓名",person.Name)
+//	fmt.Println("年龄",person.Age)
+//	fmt.Println("性别",person.Sex)
+//	c.Ctx.WriteString("数据解析成功")
+//}
 
+func(c *MainController)Post(){
+	var person models.Personer
 	dataBytes,err :=ioutil.ReadAll(c.Ctx.Request.Body)
 	if err !=nil{
 		c.Ctx.WriteString("数据解析失败，请重试")
 	}
 	err = json.Unmarshal(dataBytes,&person)
 	if err !=nil {
-		c.Ctx.WriteString("数据解析失败，请重试")
+		c.Ctx.WriteString("数据解析失败")
 		return
 	}
 	fmt.Println("姓名",person.Name)
-	fmt.Println("年龄",person.Age)
-	fmt.Println("性别",person.Sex)
+	fmt.Println("生日",person.Birthday)
+	fmt.Println("地址",person.Address)
+	fmt.Println("昵称",person.Nick)
 	c.Ctx.WriteString("数据解析成功")
 }
