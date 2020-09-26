@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f61535e1-be4d-4ad9-9b41-7641546927ea" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/controllers/db_mysql/db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/registerController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/responseResult.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/user.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/app.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/default.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/default.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go_build_bee04.exe" beforeDir="false" afterPath="$PROJECT_DIR$/go_build_bee04.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/modes.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/modes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/router.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +43,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BeegoProject0603" />
   </component>
   <component name="RunManager">
     <configuration name="go build bee04" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -59,44 +65,37 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="385" y="38" key="#go_build_bee04" timestamp="1600776082069">
+    <state x="424" y="12" key="#Inspections" timestamp="1601107042027">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="385" y="38" key="#go_build_bee04/0.0.1440.860@0.0.1440.860" timestamp="1600776082069" />
-    <state x="449" y="131" key="FileChooserDialogImpl" timestamp="1600776080813">
+    <state x="424" y="12" key="#Inspections/0.0.1440.860@0.0.1440.860" timestamp="1601107042027" />
+    <state x="385" y="38" key="#go_build_bee04" timestamp="1601106398055">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="449" y="131" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1600776080813" />
-    <state width="1387" height="208" key="GridCell.Tab.0.bottom" timestamp="1600955469568">
+    <state x="385" y="38" key="#go_build_bee04/0.0.1440.860@0.0.1440.860" timestamp="1601106398055" />
+    <state x="449" y="131" key="FileChooserDialogImpl" timestamp="1601089995164">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1387" height="208" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1600955469568" />
-    <state width="1387" height="208" key="GridCell.Tab.0.center" timestamp="1600955469568">
+    <state x="449" y="131" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1601089995164" />
+    <state width="1387" height="207" key="GridCell.Tab.0.bottom" timestamp="1601107578958">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1387" height="208" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1600955469568" />
-    <state width="1387" height="208" key="GridCell.Tab.0.left" timestamp="1600955469568">
+    <state width="1387" height="207" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1601107578958" />
+    <state width="1387" height="207" key="GridCell.Tab.0.center" timestamp="1601107578958">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1387" height="208" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1600955469568" />
-    <state width="1387" height="208" key="GridCell.Tab.0.right" timestamp="1600955469568">
+    <state width="1387" height="207" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1601107578958" />
+    <state width="1387" height="207" key="GridCell.Tab.0.left" timestamp="1601107578958">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1387" height="208" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1600955469568" />
+    <state width="1387" height="207" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1601107578958" />
+    <state width="1387" height="207" key="GridCell.Tab.0.right" timestamp="1601107578958">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1387" height="207" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1601107578958" />
     <state x="13" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1600951035082">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="13" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1600951035082" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/main.go</url>
-          <line>7</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
